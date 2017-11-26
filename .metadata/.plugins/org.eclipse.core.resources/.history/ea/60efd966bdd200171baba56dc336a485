@@ -96,10 +96,10 @@ public class CommonAPI {
 	 */
 
 	public WebDriver getDriver(String BrowserName, String url) {
-		// Using "if else if" logical statement instead of switch statement
-		// (Updated on 11/26/2017 as JRE 1.5
-		// Does not support Switch Statement with String).
+		// using "if else" logical statement (Updated on 11/26/2017 as JRE 1.5
+		// Does not support Switch Statement with String)
 		BrowserName = BrowserName.toUpperCase();
+
 		if (BrowserName.equals("CHROME")) {
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\imran\\workspace7\\FirstCucumberProject\\driver\\chromedriver.exe");

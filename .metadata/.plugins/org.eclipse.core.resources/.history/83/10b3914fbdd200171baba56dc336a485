@@ -96,29 +96,32 @@ public class CommonAPI {
 	 */
 
 	public WebDriver getDriver(String BrowserName, String url) {
-		// Using "if else if" logical statement instead of switch statement
-		// (Updated on 11/26/2017 as JRE 1.5
-		// Does not support Switch Statement with String).
+		// using "if else" logical statement (Updated on 11/26/2017 as JRE 1.5
+		// Does not support Switch Statement with String
 		BrowserName = BrowserName.toUpperCase();
-		if (BrowserName.equals("CHROME")) {
+		switch (BrowserName) {
+		case "CHROME":
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\imran\\workspace7\\FirstCucumberProject\\driver\\chromedriver.exe");
 			driver = new ChromeDriver();
-		} else if (BrowserName.equals("FIREFOX")) {
+			break;
+		case "FIREFOX":
 			System.setProperty("webdriver.gecko.driver",
 					"C:\\Users\\imran\\workspace7\\FirstCucumberProject\\driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
-		} else if (BrowserName.equals("MICROSOFE EDGE")) {
+			break;
+		case "MICROSOFE EDGE":
 			System.setProperty("webdriver.edge.driver",
 					"C:\\Users\\imran\\workspace7\\FirstCucumberProject\\driver\\MicrosoftWebDriver.exe");
 			driver = new EdgeDriver();
-		} else if (BrowserName.equals("IE")) {
-
-		} else {
-			System.out.println("You forgot to provide Browser name. Please provide");
+			break;
+		case "IE":
+			System.setProperty("webdriver.ie.driver",
+					"C:\\Users\\imran\\workspace7\\FirstCucumberProject\\driver\\IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
+			break;
 		}
-
-		driver.get(url); // Navigationg to the given URL
+		driver.get(url);
 		return driver;
 	}
 
