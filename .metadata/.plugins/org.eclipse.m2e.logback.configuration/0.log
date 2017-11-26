@@ -333,3 +333,15 @@
 2017-11-26 10:27:20,243 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\main\resources
 2017-11-26 10:27:20,249 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-11-26 10:27:20,255 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\test\resources
+2017-11-26 13:05:58,646 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cucumber:MavenCucumberPrototype:0.0.1-SNAPSHOT @ C:\Users\imran\workspace8\MavenCucumberPrototype\pom.xml.
+2017-11-26 13:06:00,104 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-26 13:06:00,104 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\main\resources
+2017-11-26 13:06:00,107 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-26 13:06:00,107 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\test\resources
+2017-11-26 13:06:19,440 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2017-11-26 13:06:21,809 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\imran\workspace8\MavenCucumberPrototype
+2017-11-26 13:06:21,810 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2017-11-26 13:09:25,953 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-26 13:09:25,954 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\main\resources
+2017-11-26 13:09:25,956 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-26 13:09:25,956 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\test\resources
