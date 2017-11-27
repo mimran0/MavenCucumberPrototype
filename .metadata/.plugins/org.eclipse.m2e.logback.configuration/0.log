@@ -345,3 +345,15 @@
 2017-11-26 13:09:25,954 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\main\resources
 2017-11-26 13:09:25,956 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-11-26 13:09:25,956 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\test\resources
+2017-11-27 16:02:13,195 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2017-11-27 16:02:17,802 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\imran\workspace8\MavenCucumberPrototype
+2017-11-27 16:02:17,803 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2017-11-27 16:05:27,722 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-27 16:05:27,723 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\main\resources
+2017-11-27 16:05:27,726 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-27 16:05:27,726 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\test\resources
+2017-11-27 18:16:28,445 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-27 18:16:28,469 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\main\resources
+2017-11-27 18:16:28,472 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-27 18:16:28,472 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\imran\workspace8\MavenCucumberPrototype\src\test\resources
+2017-11-27 18:17:01,953 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
